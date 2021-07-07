@@ -1,0 +1,187 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+body{
+    font-size: 2.2vh;
+    font-family: 'Roboto Mono', serif;
+}
+
+.topNav{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding:5vh;
+}
+
+.topNav a{
+    padding: 2vh 5vh;
+    border-radius: 2vh;
+    margin: 6vh;
+    text-decoration: none;
+    color: white;
+}
+
+.topNav a:first-child{
+    background-color:#FF764E;
+
+}
+.topNav a:nth-child(2){
+    background-color:#5ED3EB;
+}
+
+.topNav a:last-child{
+    background-color:#FFCD69;
+}
+
+div.logo img{
+    height:auto;
+    max-width: 18%;
+    border-radius: 100%;
+    display: inline-block;
+    float: left;
+    position: relative;
+    left: 14vh;
+    top: 10vh;
+}
+
+.headerDiv{  
+    display:inline-block;
+    margin: 6vh;
+    padding:10vh;
+    text-align: center;
+    position: relative;
+    left: 20vh;
+    z-index: 200;
+    font-weight: bold;
+}
+
+.headerDiv h1{
+    font-size: 8vh;
+    font-family: "chelsea market",serif;
+}
+
+.headerDiv p:nth-child(2){
+    letter-spacing: .2vh;
+    margin: 3vh 0;
+}
+
+.headerDiv p:last-child{
+    letter-spacing: .2vh;
+    margin: 3vh 0;
+    width: 60vh;
+    position: relative;
+    left: 12vh;
+
+}
+
+/* */
+
+.box{
+    background-color: #DDB9A3;
+    margin:0 9vh;
+    color: white;
+    text-align: center;
+    padding: 2.5vh;
+}
+
+
+main{
+    display: block;
+}
+
+.pictures{
+    width: 60vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3vh;
+    text-align: center;
+}
+
+.bold{
+    font-weight: bold;
+}
+.fire{
+    display: block;
+}
+
+div.fire img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 360px;
+}
+
+.reservation{
+    display: block;
+}
+
+div.reservation img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 36vh;
+
+}
+
+footer{
+    background-color: #F9E7DC;
+}
+
+div.bottomLogo{
+    overflow: hidden;
+    height: 48vh;
+}
+
+
+div.bottomLogo img{
+    display: block;
+    width: 100%;
+}
+
+
+.bottomNav{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding:5vh;
+}
+
+.bottomNav a{
+    padding: 2vh 5vh;
+    border-radius: 20vh;
+    margin: 6vh;
+    text-decoration: none;
+    color: white;
+}
+
+.bottomNav a:first-child{
+    background-color:#FF764E;
+
+}
+.bottomNav a:nth-child(2){
+    background-color:#5ED3EB;
+}
+
+.bottomNav a:last-child{
+    background-color:#FFCD69;
+}
